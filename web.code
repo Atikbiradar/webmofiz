@@ -1,0 +1,164 @@
+# webmofiz
+
+termwork 1
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+   
+</head>
+<body>
+    <h1>Welcome to JCER Webdsite</h1>
+    <p><b>Jain college of Engineering and research, Udyambhag Belagavi</b></p><br>
+    <p><i>Addmission Open</i></p><br>
+    <p>x=1/3(y<sub>1</sub><sup>2</sup>+z<sub>1</sub><sup>2</sup>)</p><br>
+    <p>List of fruits:</p>
+    <ul>
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Kivi</li>
+        <li>Banana</li>
+
+    </ul>
+    <p>List of flowers:</p>
+    <ul>
+        <li>Rose</li>
+        <li>Lily</li>
+        <li>Sunflower</li>
+    </ul>
+
+    
+</body>
+</html>
+
+
+termwork 2
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result Analysis</title>
+</head>
+<body background-color="red">
+    <table border="1" cellpadding="10" bgcolor="cyan" align="center">
+        <tr>
+            <th>Department</th>
+            <th>Semester</th>
+            <th>Subject</th>
+            <th>Result in %</th>
+        </tr>
+        <tr>
+            <td rowspan="12" align="center">cse</td>
+            <td rowspan="3" align="center">Sem1 </td>
+            <td align="center">Subject 1</td>
+            <td align="center">85%</td>
+        </tr>
+        <tr>
+            <td align="center">Subject 2</td>
+            <td align="center">85%</td>
+        </tr>
+        <tr>
+            <td align="center">Subject 3</td>
+            <td align="center"> 85%</td>
+        </tr>
+        <tr>
+            <td rowspan="3" align="center">Sem2</td>
+            <td align="center">Subject 1</td>
+            <td align="center"> 85%</td>
+        </tr>
+        <tr>
+            <td align="center">Subject 2</td>
+            <td align="center">85%</td>
+        </tr>
+        <tr>
+            <td align="center">Subject 3</td>
+            <td align="center">85%</td>
+        </tr>
+        <tr>
+            <td rowspan="3" align="center">Sem3</td>
+            <td align="center">Subject 1</td>
+            <td align="center">85%</td>
+        </tr>
+        <tr>
+            <td align="center">Subject 2</td>
+            <td align="center">85%</td>
+        </tr>
+        <tr>
+            <td align="center">Subject 3</td>
+            <td align="center">85%</td>
+        </tr>
+        <tr>
+            <td rowspan="3" align="center">Sem4</td>
+            <td align="center">Subject 1</td>
+            <td align="center">85%</td>
+        </tr>
+        <tr>
+            <td align="center"> Subject 2</td>
+            <td  align="center">85%</td>
+        </tr>
+        <tr>
+            <td align="center">Subject 3</td>
+            <td align="center">85%</td>
+        </tr>
+        
+    </table>
+
+</body>
+</html>
+
+termwork 3
+
+<!DOCTYPE html>
+<html>
+<head><title>form</title></head>
+<body>
+<form action="">
+<h2>Welcome to AK Mart</h2>
+<label>Name of buyer:<input type="text" ></label></br></br>
+<label>Mobile No:<input type="text" ></label></br></br>
+<label>Address:<input type="text" ></label><br></br>
+<table border="2" cellpadding="5">
+<caption>select item from the list</caption></br></br>
+<tr>
+<th>SI NO</th>
+<th>Product Name:</th>
+<th>Price /kg</th>
+<th>Quantity</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Tea</td>
+<td>100</td>
+<td><input type="text" name="quantity"></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Sugar</td>
+<td>40</td>
+<td><input type="text" name="quantity"></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Milk Powder</td>
+<td>100</td>
+<td><input type="text" name="quantity"></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Rice</td>
+<td>70</td>
+<td><input type="text" name="quantity"></td>
+</tr>
+</table>
+<h2>Payment</h2></br>
+<label><input type="radio" value=""/>credit card</label>
+<label><input type="radio" value="card"/>Debit card</label>
+<label><input type="radio"  value="upiid"/>UPI ID</label><br><br>
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+</form>
+</body>
+</html>
