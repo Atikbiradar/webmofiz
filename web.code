@@ -1,6 +1,8 @@
-# webmofiz
-
-termwork 1
+#code for
+a.paragraph
+b.create equation
+c.create order list
+d.put bac tag
 
 <!DOCTYPE html>
 <html lang="en">
@@ -35,7 +37,12 @@ termwork 1
 </html>
 
 
-termwork 2
+
+
+
+
+2.#code for align cells apply backg color bold
+
 
 <!DOCTYPE html>
 <html>
@@ -109,62 +116,8 @@ termwork 2
 </body>
 </html>
 
-termwork 3
 
-<!DOCTYPE html>
-<html>
-<head><title>form</title></head>
-<body>
-<form action="">
-<h2>Welcome to AK Mart</h2>
-<label>Name of buyer:<input type="text" ></label></br></br>
-<label>Mobile No:<input type="text" ></label></br></br>
-<label>Address:<input type="text" ></label><br></br>
-<table border="2" cellpadding="5">
-<caption>select item from the list</caption></br></br>
-<tr>
-<th>SI NO</th>
-<th>Product Name:</th>
-<th>Price /kg</th>
-<th>Quantity</th>
-</tr>
-<tr>
-<td>1</td>
-<td>Tea</td>
-<td>100</td>
-<td><input type="text" name="quantity"></td>
-</tr>
-<tr>
-<td>2</td>
-<td>Sugar</td>
-<td>40</td>
-<td><input type="text" name="quantity"></td>
-</tr>
-<tr>
-<td>3</td>
-<td>Milk Powder</td>
-<td>100</td>
-<td><input type="text" name="quantity"></td>
-</tr>
-<tr>
-<td>4</td>
-<td>Rice</td>
-<td>70</td>
-<td><input type="text" name="quantity"></td>
-</tr>
-</table>
-<h2>Payment</h2></br>
-<label><input type="radio" value=""/>credit card</label>
-<label><input type="radio" value="card"/>Debit card</label>
-<label><input type="radio"  value="upiid"/>UPI ID</label><br><br>
-<input type="submit" value="submit">
-<input type="reset" value="reset">
-</form>
-</body>
-</html>
-
-
-termwork 4
+5.#code to  display RAM,ROM Using css
 
 <!DOCTYPE html>
 <html>
@@ -269,44 +222,8 @@ body {
 </html>
 
 
-termwork 5
 
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Experiment 5</title>
-		<style type="text/css">
-			h1{
-				color:red;
-				font-size:50px;
-				text-align:center;
-				font-family:arial;
-				border:blue 5px solid;
-			}
-		</style>
-		<style type="text/css" media="screen and (max-width:500px)">
-			h1{
-				color:blue;
-				font-family:monospace;
-			}
-		</style>
-		<style type="text/css" media="print">
-			h1{
-				color:yellow;
-				font-family:cursive;
-			}
-		</style>
-	</head>
-	<body>
-		<h1>Jain College of Engineering and Research</h1>
-	</body>
-</html>
-
-
-
-termwork 6a
-
+6.#code for inline css
 
 <DOCTYPE html>
     <html>
@@ -322,10 +239,9 @@ termwork 6a
                 medical conditions based on images.</p>
             </body>
     </html>
+    
 
-
-termwork 6b
-
+#code for internal css
 
 <DOCTYPE html>
     <html>
@@ -352,10 +268,10 @@ termwork 6b
                 presented. It powers autonomous vehicles and machines that can diagnose
                 medical conditions based on images.</p>
             </body>
-    </html>
+    </html> 
 
 
-termwork 6c
+#code for ext css
 
 <DOCTYPE html>
     <html>
@@ -372,81 +288,57 @@ termwork 6c
                 presented. It powers autonomous vehicles and machines that can diagnose
                 medical conditions based on images.</p>
             </body>
-    </html>
+    </html> 
 
 
-termwork 7
+7.#code for lists
 
-<DOCTYPE html>
-    <head>
-        <title>Hello</title>
-    <style>
-    .one{
-    list-style-type:upper-roman;
-    }
-    .two{
-    list-style-type:upper-alpha;
-    }
-    .three
-    {
-    list-style-type:lower-roman;
-    }
-    </style>
-    </head>
-    <body>
-    <h1>Nested list</h1>
-    <ul class="one">
-        <li>list 1
-            <ul class="two">
-                <li>list A
-                    <ul class="three">
-                        <li>x</li>
-                        <li>y</li>
-                        <li>z</li>
-                    </ul>
-                </li>
-            
-        
-                <li>list B
-                    <ul class="three">
-                        <li>p</li>
-                        <li>q</li>
-                        <li>r</li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-    <li>list 2
-            <ul class="two">
-                <li>list C
-                    <ul class="three">
-                        <li>x</li>
-                        <li>y</li>
-                        <li>z</li>
-                    </ul>
-                </li>
-            
-        
-                <li>list D
-                    <ul class="three">
-                        <li>p</li>
-                        <li>q</li>
-                        <li>r</li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-    
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>unorderd list</p>
+    <ul>
+        <li>s</li>
+        <li>a</li>
+        <li>n</li>
     </ul>
-    
-    
-    </body>
-    </html>
+    <p>orderd list</p>
+    <ol>
+        <li>j</li>
+        <li>a</li>
+        <li>y</li>
+    </ol>
+    <p>defination list</p>
+    <dl>
+        <dd>p</dd>
+        <dd>u</dd>
+        <dd>j</dd>
+    </dl>
+    <p>nested list</p>
+    <ul>
+        <li>ksp
+            <ul>
+                <li>m</li>
+                <li>l</li>
+            </ul>
+        </li>
+        <li>mlp
+            <ul>
+                <li>o</li>
+                <li>p</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
 
 
-
-termwork 8
+8.#html javascript code fordiff cond statments
 
 <DOCTYPE html> 
 <html>
@@ -478,9 +370,9 @@ termwork 8
 </html>
 
 
-termwork 9a
+9.#code using switch,prompt and fuction
 
-<DOCTYPE html> 
+a) <DOCTYPE html> 
 <html>
 	<head>
 		<title> week</title>
@@ -488,7 +380,7 @@ termwork 9a
 <body>
 	<h1>Week :</h1>
 	<script>
-		var week=2;
+		var week=11;
 		switch(week)
 		{
 			case (1):document.write("Sunday");
@@ -512,9 +404,7 @@ termwork 9a
 </html>
 
 
-termwork 9b
-
-<DOCTYPE html> 
+b) <DOCTYPE html> 
 <html>
 	<head>
 		<title> week</title>
@@ -546,9 +436,7 @@ termwork 9b
 </html>
 
 
-temwork 9c
-
-<DOCTYPE html> 
+c) <DOCTYPE html> 
 <html>
 	<head>
 		<title>9C</title>
@@ -575,9 +463,10 @@ temwork 9c
 </html>
 
 
-termwork 10a
 
-<DOCTYPE html> 
+#code using three window object method
+
+a) <DOCTYPE html> 
 <html>
 	<head>
 		<title>9C</title>
@@ -604,9 +493,7 @@ termwork 10a
 </html>
 
 
-temwork 10b
-
-<DOCTYPE html>
+b) <DOCTYPE html>
 <html>
 	<head>
 		<title>alert and confirm </title>
@@ -627,7 +514,8 @@ temwork 10b
 </html>
 
 
-termwork 11
+
+11.#code to demonst html dom using javascript
 
 <DOCTYPE html>
 	<head>
@@ -671,6 +559,223 @@ termwork 11
 <script src="pgm11.js"></script>
 </body>
 <html>
+
+
+#code for hyper link
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hyperlink Demo</title>
+ <style>
+    #section2{
+        margin-top: 700px;
+    }
+ </style>
+ 
+</head>
+<body>
+
+<h1>Hyperlink Demo</h1>
+
+<p><h3>This is a hyperlink to another page: <a href="https://www.google.com">Google</a></h3></p>
+
+<p><h3>This is a hyperlink to another section of this page: <a href="#section2">Section 2</a></h3></p>
+
+<h2 id="section2">Section 2</h2>
+
+<p>This is the second section of the page.</p>
+<p><h2>This is Section 2</h2></p>
+<p>lorem52</p>
+
+
+</body>
+</html>
+
+#code for login
+
+<!DOCTYPE html>   6th
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            border:1px solid black;
+            padding:100px;
+            margin:300px;
+            border-radius: 10px;
+        }
+        .sp{
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body align="center">
+    <div class="sp">
+    <h2>LOG IN</h2>
+    <label>User name : <input type="text" name="user"></label><br><br>
+    <label>Password : <input type="password" name="user"></label><br><br>
+    <button type="submit">SUBMIT</button>
+    <button type="reset">CANCLE</button>
+    </div>
+</body>
+</html>
+
+#code for profile page
+
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title>Profile Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            margin: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Profile Page</h1>
+
+    <section>
+        <h2>Profile Photo</h2>
+        <img src="wp3054697.jpg" alt="Profile Photo">
+    </section>
+
+    <section>
+        <h2>Educational Details</h2>
+        <ul>
+            <li>Bachelor's Degree: University</li>
+            <li>PUC: University</li>
+        </ul>
+<li>SSLC: University</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Achievements</h2>
+        <ul>
+            <li>Award 1 - Year</li>
+            <li>Award 2 - Year</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Hobby 1</li>
+            <li>Hobby 2</li>
+            <li>Hobby 3</li>
+        </ul>
+    </section>
+</body>
+</html>
+
+
+
+#code for reg form
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>registration</title>
+</head>
+
+<body bgcolor="purple">
+    <h1 align="center">REGISTRATION FORM</h1>
+    <br><br><br><br>
+    First name &nbsp<input type="text" value="" name="text1">
+    <br><br>
+    Last name &nbsp<input type="text" value="" name="text2">
+    <br><br>
+    username &nbsp<input type="text" value="" name="text3">
+    <br><br>
+    password &nbsp<input type="password" value="" name="pswd1">
+    <br><br>
+    confirm &nbsp<input type="password" value="" name="pswd2">
+    <br><br>
+    Adress &nbsp<textarea row="3" cols="60"></textarea>
+    <br><br>
+    Date of Birth<input type="date">
+    <br><br>
+    sex&nbsp
+    <input name="rb1" type="radio" value="radiobutton">Male
+    <input name="rb1" type="radio" value="radiobutton">Female
+    <br><br>
+    Martial status &nbsp
+    <input name="rb2" type="radio" value="radiobutton">Single
+    <input name="rb2" type="radio" value="radiobutton">Married
+    <br><br>
+    mobile number &nbsp<input type="text" value="" name="text4">
+    <br><br>
+    Branch &nbsp
+    <input name="rb3" type="radio" value="radiobutton">CSE
+    <input name="rb3" type="radio" value="radiobutton">ECE
+    <input name="rb3" type="radio" value="radiobutton">IS
+    <input name="rb3" type="radio" value="radiobutton">Mech
+    <br><br>
+    Language known &nbsp
+    <input name="cb1" type="checkbox" value="checkbox">English
+    <input name="cb1" type="checkbox" value="checkbox">Hindi
+    <input name="cb1" type="checkbox" value="checkbox">Telugu
+    <input name="cb1" type="checkbox" value="checkbox">Kannada
+    <br><br>
+    <center>
+        <input type="submit" value="SUBMIT">
+        <input type="reset" value="CANCEL">
+    </center>
+
+</body>
+
+</html>
+<input name="cb1" type="checkbox" value="checkbox">Telugu
+    <input name="cb1" type="checkbox" value="checkbox">Kannada
+    <br><br>
+    <center>
+        <input type="submit" value="SUBMIT">
+        <input type="reset" value="CANCEL">
+    </center>
+
+</body>
+
+</html>
+
 
 
 
