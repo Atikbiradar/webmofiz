@@ -162,3 +162,515 @@ termwork 3
 </form>
 </body>
 </html>
+
+
+termwork 4
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Types of Memory</title>
+		<link rel="stylesheet" type="text/css" href="styleexp4.css">
+<style>
+body {
+		  background-color:black;
+		 
+		  color:white;
+	     }
+						
+
+	h1 {
+		text-align:center;
+		background-color:darkgreen;
+		width:30%;
+		margin:8px auto;
+		padding:2px;
+	   }
+
+	
+
+	h3 {
+		border-left:red 6px solid;
+		background-color:blue;
+		
+	   }
+
+	p {
+		padding:10px;
+		/* margin-left:10px;
+		margin-top:-20px; */
+		font-size:16px;
+		font-style: italic;
+    }
+</style>
+	</head>
+
+	<body>
+		<h1>Types of Memory</h1>
+		<ol>
+			<li>
+				<b>Primary Memory</b>
+				<ul>
+					<li>RAM (Random Access Memory)</li>
+					<li>ROM (Read Only Memory)</li>
+				</ul>
+			</li>
+			<li>
+				<b>Secondary Memory</b>
+				<ul>
+					<li>Magnetic Tapes</li>
+					<li>Magnetic Disks</li>
+					<li>Optical Disks</li>
+				</ul>
+			</li>
+			<li>
+				 <b>Cache Memory</b>
+		    </li>
+		</ol>
+		<hr/>
+		<h3>1. Primary Memory:</h3>
+		<p>
+			It is also known as the main memory of the computer system. It is used to 
+			store data and programs or instructions during computer operations. It uses 
+			semiconductor technology and hence is commonly called semiconductor memory. 
+			Primary memory is of two types:
+        </p>
+		<p>
+			<b>(i) RAM (Random Access Memory): </b>It is a volatile memory. Volatile memory stores information based on the power supply. 
+			If the power supply fails/ interrupted/stopped, all the data & information on this memory 
+			will be lost.
+		</p>
+		<p>
+			<b>(ii) ROM (Read Only Memory):</b>It is a non-volatile memory. Non-volatile memory stores information even when there is a power supply 
+			failed/ interrupted/stopped. ROM is used to store information that is used to operate the system.
+		</p>
+		<h3>2. Secondary Memory:</h3>
+		<p>
+			It is also known as auxiliary memory and backup memory. It is a non-volatile memory and used to store a 
+			large amount of data or information. The data or information stored in secondary memory is permanent, and 
+			it is slower than primary memory.
+		</p>
+		<p>
+			<b>(i) Magnetic Tapes: </b>Magnetic tape is a long, narrow strip of plastic film with a thin, magnetic coating on it that is 
+			used for magnetic recording.
+		</p>
+		<p>
+			<b>(ii) Magnetic Disks:</b>A magnetic disc is a circular metal or a plastic plate and these plates are coated with magnetic material.
+		</p>
+		<p>
+			<b>(iii) Optical Disks:</b>It's a laser-based storage medium that can be written to and read. It is reasonably priced and has a long lifespan.
+		</p>
+		<h3>3. Cache Memory:</h3>
+		<p>
+			It is a type of high-speed semiconductor memory that can help the CPU run faster. Between the CPU and the 
+			main memory, it serves as a buffer. It is used to store the data and programs that the CPU uses the most frequently. 
+		</p>
+	</body>
+</html>
+
+
+termwork 5
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Experiment 5</title>
+		<style type="text/css">
+			h1{
+				color:red;
+				font-size:50px;
+				text-align:center;
+				font-family:arial;
+				border:blue 5px solid;
+			}
+		</style>
+		<style type="text/css" media="screen and (max-width:500px)">
+			h1{
+				color:blue;
+				font-family:monospace;
+			}
+		</style>
+		<style type="text/css" media="print">
+			h1{
+				color:yellow;
+				font-family:cursive;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Jain College of Engineering and Research</h1>
+	</body>
+</html>
+
+
+
+termwork 6a
+
+
+<DOCTYPE html>
+    <html>
+        <head><title>inline CSS</title></head>
+            <body>
+                <h1 style="color:red;">ABSTRACT</h1>
+                <p style="color:blue;">Machine learning is a method of data analysis that automates analytical model
+                building. It is a branch of artificial intelligence based on the idea that systems can
+                learn from data, identify patterns and make decisions with minimal human
+                intervention. Machine learning is behind chatbots and predictive text, language
+                translation apps, the shows Netflix suggests, and how the social media feeds are
+                presented. It powers autonomous vehicles and machines that can diagnose
+                medical conditions based on images.</p>
+            </body>
+    </html>
+
+
+termwork 6b
+
+
+<DOCTYPE html>
+    <html>
+        <head><title>internal css</title>
+        <style>
+        h1{
+        color:red;
+        font-weight:bolder;
+        }
+        p{
+        color:cyan;
+        }
+        </style>
+    
+    
+        </head>
+            <body>
+                <h1>ABSTRACT</h1>
+                <p>Machine learning is a method of data analysis that automates analytical model
+                building. It is a branch of artificial intelligence based on the idea that systems can
+                learn from data, identify patterns and make decisions with minimal human
+                intervention. Machine learning is behind chatbots and predictive text, language
+                translation apps, the shows Netflix suggests, and how the social media feeds are
+                presented. It powers autonomous vehicles and machines that can diagnose
+                medical conditions based on images.</p>
+            </body>
+    </html>
+
+
+termwork 6c
+
+<DOCTYPE html>
+    <html>
+        <head><title> external CSS</title>
+        <link rel="stylesheet" type="text/css" href=style.css>
+        </head>
+            <body>
+                <h1>ABSTRACT</h1>
+                <p>Machine learning is a method of data analysis that automates analytical model
+                building. It is a branch of artificial intelligence based on the idea that systems can
+                learn from data, identify patterns and make decisions with minimal human
+                intervention. Machine learning is behind chatbots and predictive text, language
+                translation apps, the shows Netflix suggests, and how the social media feeds are
+                presented. It powers autonomous vehicles and machines that can diagnose
+                medical conditions based on images.</p>
+            </body>
+    </html>
+
+
+termwork 7
+
+<DOCTYPE html>
+    <head>
+        <title>Hello</title>
+    <style>
+    .one{
+    list-style-type:upper-roman;
+    }
+    .two{
+    list-style-type:upper-alpha;
+    }
+    .three
+    {
+    list-style-type:lower-roman;
+    }
+    </style>
+    </head>
+    <body>
+    <h1>Nested list</h1>
+    <ul class="one">
+        <li>list 1
+            <ul class="two">
+                <li>list A
+                    <ul class="three">
+                        <li>x</li>
+                        <li>y</li>
+                        <li>z</li>
+                    </ul>
+                </li>
+            
+        
+                <li>list B
+                    <ul class="three">
+                        <li>p</li>
+                        <li>q</li>
+                        <li>r</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    <li>list 2
+            <ul class="two">
+                <li>list C
+                    <ul class="three">
+                        <li>x</li>
+                        <li>y</li>
+                        <li>z</li>
+                    </ul>
+                </li>
+            
+        
+                <li>list D
+                    <ul class="three">
+                        <li>p</li>
+                        <li>q</li>
+                        <li>r</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    
+    
+    </ul>
+    
+    
+    </body>
+    </html>
+
+
+
+termwork 8
+
+<DOCTYPE html> 
+<html>
+<head>
+	<title>Script</title>
+</head>
+<body>
+	<script>
+		var marks=510;
+		if(marks >=500)
+			{
+				document.write("A division");
+			}
+		else if(marks <500 && marks>=400)
+			{
+				document.write("B division");
+			}
+		else if(marks <400 && marks >=300)
+			{
+				document.write("C division");
+			}
+		else
+			{
+				document.write("Fail");
+			}
+	</script>
+	</script>
+</body>
+</html>
+
+
+termwork 9a
+
+<DOCTYPE html> 
+<html>
+	<head>
+		<title> week</title>
+	</head>
+<body>
+	<h1>Week :</h1>
+	<script>
+		var week=2;
+		switch(week)
+		{
+			case (1):document.write("Sunday");
+				break;
+			case (2):document.write("monday");
+				break;
+			case (3):document.write("thuesday");
+				break;
+			case (4):document.write("wednesday");
+				break;
+			case (5):document.write("thursday");
+				break;
+			case (6):document.write("friday");
+				break;
+			case (7):document.write("saturday");
+				break;
+			default : document.write("Invalid");
+		}
+	</script>
+</body>
+</html>
+
+
+termwork 9b
+
+<DOCTYPE html> 
+<html>
+	<head>
+		<title> week</title>
+	</head>
+<body>
+	<h2>Week :</h2>
+	<script>
+		var week=prompt("Enter a num ");
+		switch(true)
+		{
+			case (week==1):document.write("Sunday");
+				break;
+			case (week==2):document.write("monday");
+				break;
+			case (week==3):document.write("thuesday");
+				break;
+			case (week==4):document.write("wednesday");
+				break;
+			case (week==5):document.write("thursday");
+				break;
+			case (week==6):document.write("friday");
+				break;
+			case (week==7):document.write("saturday");
+				break;
+			default : document.write("Invalid");
+		}
+	</script>
+</body>
+</html>
+
+
+temwork 9c
+
+<DOCTYPE html> 
+<html>
+	<head>
+		<title>9C</title>
+	</head>
+<body>
+	<script>
+		function totalmarks(m1,m2,m3,m4)
+			{
+				var tm=m1+m2+m3+m4;
+				return tm;
+
+			}
+		function per(tm)
+			{
+				var p=(tm/400)*100;
+				return p;
+			}
+		tmark = totalmarks(90,95,83,97);
+		document.write("Marks obtained :"+ tmark+"<br/>");
+		pm = per(tmark);
+		document.write("Percentage : "+pm);
+	</script>
+</body>
+</html>
+
+
+termwork 10a
+
+<DOCTYPE html> 
+<html>
+	<head>
+		<title>9C</title>
+	</head>
+<body>
+	<script>
+		function totalmarks(m1,m2,m3,m4)
+			{
+				var tm=m1+m2+m3+m4;
+				return tm;
+
+			}
+		function per(tm)
+			{
+				var p=(tm/400)*100;
+				return p;
+			}
+		tmark = totalmarks(90,95,83,97);
+		document.write("Marks obtained :"+ tmark+"<br/>");
+		pm = per(tmark);
+		document.write("Percentage : "+pm);
+	</script>
+</body>
+</html>
+
+
+temwork 10b
+
+<DOCTYPE html>
+<html>
+	<head>
+		<title>alert and confirm </title>
+	</head>
+<body>
+	<script>
+		var x = confirm("do you want to submit the form");
+		if(x)
+		{
+			alert("Thank you");
+		}
+		else 
+		{
+			alert("Try again");
+		}
+	</script>
+</body>
+</html>
+
+
+termwork 11
+
+<DOCTYPE html>
+	<head>
+		<title>Expt 11</title>
+		<style>
+			*{ margin:0;
+			padding:0;}
+			body{ font-family:arial;
+				background-color:aqua;}
+			h2{color :red;}
+			form{ padding:30px;}
+			header{background-color :blue;
+				color:white;
+				padding:20px;}
+			div#content >h2 {border-bottom:5px solid yellow;
+						width :50%;
+						paddinf :30px;}
+			form > input{ padding :5px;}
+			li.list-item{padding: 20px;}
+		</style>
+		
+	</head>
+<body>
+	<header id="header">
+		<h1 id="header-title">JCER</h1>
+		<p id="tag-line">Admission open</p>
+	</header>
+		<div id="content">
+			
+			<h2>Courses offered</h2>
+			<ul>
+				<li class="list-item">CSE</li>
+				<li class="list-item">EC</li>
+				<li class="list-item">ME</li>
+				<li class="list-item">CV</li>
+			</ul>
+			<form>
+				select branch<input type="text">
+			</form>
+		</div>
+<script src="pgm11.js"></script>
+</body>
+<html>
+
+
+
